@@ -1,0 +1,65 @@
+site_name: Tall Nerd
+theme:
+  name: material
+  icon:
+    logo: material/pen
+  language: en
+  favicon: images/favicon.png
+  features:
+    - content.code.annotate
+    - content.code.copy
+    - header.autohide
+    - navigation.footer
+    - navigation.top
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.tracking
+    - navigation.sections
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.expand
+    - navigation.path
+    - search.highlight
+    - search.share
+    - search.suggest
+  palette: 
+    
+    # Palette toggle for dark mode
+    - scheme: slate
+      primary: black
+      accent: deep orange
+      toggle:
+        icon: material/weather-night
+        name: Switch to light mode
+
+    # Palette toggle for light mode
+    - scheme: default
+      primary: white
+      accent: deep orange
+      toggle:
+        icon: material/weather-sunny 
+      name: Switch to dark mode
+
+nav:
+ - Home:
+    - 'About' : index.md
+ - Portfolio: 
+      - 'Start Here' : Portfolio/start here.md
+
+extra:
+  social:
+    - icon: fontawesome/brands/linkedin
+      link: linkedin.com/in/chukwuebuka-ukatu/
+    - icon: fontawesome/brands/GitHub
+      link: https://github.com/TallNerdx
+
+markdown_extensions:
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+
+
+copyright: Copyright &copy; 2024 Ebuka Ukatu
